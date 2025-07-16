@@ -3,12 +3,14 @@ import Counter from "./Counter"
 import Greeting from "./Greeting";
 import Siswa from "./Siswa"
 import NamaInput from "./NamaInput";
+import TodoList from "./TodoList";
 const siswa = ["Nabil", "Dina", "Rafi"];
 
 function App(){
   return (
     <div>
-      <Ngetes />
+      <TodoList />
+      {/* <Ngetes /> */}
       <Counter />
       <Greeting nama="Aji"/>
       <h1>Input Form Sederhana</h1>
