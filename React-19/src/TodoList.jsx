@@ -8,13 +8,13 @@ export default function TodoList() {
     if (kegiatan.trim() === "") return;
 
     const itemBaru = {
-      id: Date.now(), // id unik
+      id: Date.now(), 
       nama: kegiatan,
       selesai: false
     };
 
     setList([...list, itemBaru]);
-    setKegiatan(""); // kosongkan input
+    setKegiatan(""); 
   };
 
   const toggleSelesai = (id) => {
